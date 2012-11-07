@@ -14,5 +14,9 @@
 (require 'jedi)
 (require 'jedi-eldoc)
 
+;; change face as you like
+(set-face-attribute 'jedi-eldoc:highlight-function-argument nil
+                    :foreground "green")
+
 (add-hook 'python-mode-hook 'jedi-eldoc-mode)
 ````
