@@ -1,6 +1,6 @@
 # Eldoc with emacs-jedi
 
-![screenshot](![helm-ack](https://github.com/syohex/emacs-jedi-eldoc/raw/master/image/jedi-eldoc-sample.png))
+![screenshot](https://github.com/syohex/emacs-jedi-eldoc/raw/master/image/jedi-eldoc-sample.png)
 
 
 ## Requirements
