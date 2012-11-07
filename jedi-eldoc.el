@@ -31,7 +31,7 @@
   :group 'jedi
   :prefix "jedi-eldoc:")
 
-(defface jedi-eldoc:highlight-arg
+(defface jedi-eldoc:highlight-function-argument
   '((t (:inherit eldoc-highlight-function-argument)))
   "Face of current function argument"
   :group 'jedi-eldoc)
@@ -39,7 +39,7 @@
 (defun* jedi-eldoc:format--for-eldoc (&key params index call_name)
   (let ((current-arg (nth index params)))
     (setf (nth index params)
-          (propertize current-arg 'face 'jedi-eldoc:highlight-arg))
+          (propertize current-arg 'face 'jedi-eldoc:highlight-function-argument))
     (concat call_name "(" (mapconcat #'identity params ", ") ")")))
 
 (defun jedi-eldoc:format-for-eldoc (args)
