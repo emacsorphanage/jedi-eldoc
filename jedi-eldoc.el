@@ -37,9 +37,9 @@
   :group 'jedi-eldoc)
 
 (defun* jedi-eldoc:format--for-eldoc (&key params index call_name)
-  (let ((current-arg (nth (1- index) params)))
+  (let ((current-arg (nth index params)))
     (if current-arg
-        (setf (nth (1- index) params)
+        (setf (nth index params)
               (propertize current-arg
                           'face 'jedi-eldoc:highlight-function-argument)))
     (concat call_name "(" (mapconcat #'identity params ", ") ")")))
