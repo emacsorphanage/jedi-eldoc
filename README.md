@@ -1,3 +1,5 @@
+# This feature is merged emacs-jedi !!!!
+
 # Eldoc with emacs-jedi
 
 ![screenshot](https://github.com/syohex/emacs-jedi-eldoc/raw/master/image/jedi-eldoc-sample.png)
