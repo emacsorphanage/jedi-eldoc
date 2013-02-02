@@ -1,4 +1,7 @@
-# This feature is merged emacs-jedi !!!!
+# This is obsolete module !! Please use emacs-jedi
+
+*Features of this module are merged with [emacs-jedi](https://github.com/tkf/emacs-jedi).*
+
 
 # Eldoc with emacs-jedi
 
